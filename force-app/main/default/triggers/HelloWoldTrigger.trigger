@@ -1,3 +1,3 @@
-trigger HelloWoldTrigger on SOBJECT (before insert) {
+trigger HelloWoldTrigger on Account (before insert) {
     System.debug('Hello World');
 }
